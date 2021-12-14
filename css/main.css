@@ -134,11 +134,13 @@ hr {
     margin-right: 100px;
     margin-top: 100px;
 }
+
 .level__about__top-title {
     font-size: 24px;
     line-height: 29px;
     text-transform: uppercase;
 }
+
 .level__about__middle-title {
     font-weight: 700;
     font-size: 98px;
@@ -150,13 +152,44 @@ hr {
     padding-top: 27px;
     padding-bottom: 10px;
 }
+
 .level__about__bottom-title {
+    font-size: 28px;
+    line-height: 32px;
+    padding-bottom: 20px;
 }
+
 .level__about__text {
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 35px;
 }
+
 .level__about__link {
+    background-color: #99FF91;
+    border-radius: 100px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 20px;
+    line-height: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 23px;
 }
+
+.level__about__link:hover{
+    background-color: #E5E5E5;
+}
+
+.level__about__link:active{
+    background-color: #E5E5E5;
+    opacity: 0.6;
+}
+
 .level__img {
+    max-width: 590px;
+    width: 100%;
+    height: 690px;
 }
 
 
