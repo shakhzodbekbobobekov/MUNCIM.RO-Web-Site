@@ -12,6 +12,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    font-weight: 400;
     background-color: #E5E5E5;
 }
 
@@ -114,10 +115,54 @@ body{
 } 
 
 hr {
-    border: 2px solid #000;
+    border: 1px solid #000;
     margin: 0;
     padding: 0;
     margin-top: 30px;
 }
 /* /Header */
 
+
+/* MAIN */
+/* Level */
+.level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.level__about {
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.level__about__top-title {
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+.level__about__middle-title {
+    font-weight: 700;
+    font-size: 98px;
+    line-height: 98px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+.level__about__bottom-title {
+}
+.level__about__text {
+}
+.level__about__link {
+}
+.level__img {
+}
+
+
+
+
+
+
+/* /Level */
+/* /MAIN */
