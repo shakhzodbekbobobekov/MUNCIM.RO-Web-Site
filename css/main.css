@@ -191,11 +191,12 @@ hr {
     width: 100%;
     height: 690px;
 }
-
-
-
-
-
-
 /* /Level */
+
+/* resption */
+.resption {
+    display: flex;
+    align-items: center;
+}
+/* /resption */
 /* /MAIN */
