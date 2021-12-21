@@ -259,5 +259,50 @@ hr {
 .resption__number-box__items__text {
     line-height: 23px;
 }
+
+.resption__right-section {
+    background: linear-gradient(180deg, #99FF91 0%, #61D1F2 100%);
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 36px;
+    padding: 50px;
+}
+
+.resption__right-section__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.resption__right-section__text {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+hr:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.resption__right-section__btn {
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    padding: 27px 167px 27px 167px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 /* /resption */
 /* /MAIN */
