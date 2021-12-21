@@ -196,7 +196,68 @@ hr {
 /* resption */
 .resption {
     display: flex;
+    align-items: flex-start;
+    border-top: 2px solid #000;
+    padding-top: 60px;
+}
+
+.resption__left-section {
+    padding-right: 120px;
+}
+
+.resption_in-text p {
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 21px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.resption_in-text h3 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
+
+.resption__number-box {
+    margin-top: 50px;
+}
+
+.resption__number-box__items {
+    display: flex;
     align-items: center;
+    border: 1px solid #333333;
+    border-radius: 36px;
+    list-style: none;
+    padding: 30px 70px 30px 20px;
+}
+
+.resption__number-box__items:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.resption__number-box__items__img {
+    margin-right: 20px;
+}
+
+.resption__number-box__items__title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding-bottom: 20px;
+}
+
+.resption__number-box__items__text {
+    line-height: 23px;
 }
 /* /resption */
 /* /MAIN */
