@@ -303,6 +303,16 @@ hr:not(:last-child) {
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.resption__right-section__btn:hover {
+    background: #61D1F2 100%;
+    color: #000;
+}
+
+.resption__right-section__btn:active {
+    background: linear-gradient(180deg, #99FF91 0%, #61D1F2 100%);
 }
 /* /resption */
 /* /MAIN */
