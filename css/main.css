@@ -14,6 +14,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     background-color: #E5E5E5;
+    color: #000;
 }
 
 .container {
@@ -334,6 +335,39 @@ hr:not(:last-child) {
     margin: 0;
     padding: 0;
     margin-right: 100px;
+}
+
+.search-menu__text__top_title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.search-menu__text__main_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.search-menu__text__p1 {    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
 }
 /* /search-menu */
 
