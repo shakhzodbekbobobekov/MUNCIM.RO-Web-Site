@@ -403,6 +403,20 @@ hr:not(:last-child) {
     padding: 5px 20px;
     text-transform: uppercase;
 }
+
+.search-menu__text__link__left:hover {
+    background: linear-gradient(180deg, #99FF91 0%, #61D1F2 100%);
+}
+
+.search-menu__text__link__right:hover {
+    background: linear-gradient(180deg, #61D1F2 0%, #99FF91 100%);
+}
+
+.search-menu__text__link__left:active,
+.search-menu__text__link__right:active {
+   opacity: 0.8;
+}
+
 /* /search-menu */
 
 /* /MAIN */
