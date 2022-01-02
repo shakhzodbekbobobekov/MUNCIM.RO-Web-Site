@@ -384,12 +384,24 @@ hr:not(:last-child) {
     margin-right: 15px;
     text-decoration: none;
     color: #000;
+    background-color: #99FF91;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    padding: 5px 20px;
+    text-transform: uppercase;
 }
 
 .search-menu__text__link__right {
     margin-right: 15px;
     text-decoration: none;
     color: #000;
+    background-color: #fff;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    padding: 5px 20px;
+    text-transform: uppercase;
 }
 /* /search-menu */
 
