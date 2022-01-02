@@ -369,6 +369,10 @@ hr:not(:last-child) {
     margin: 0;
     padding-bottom: 15px;
 }
+
+.search-menu__text__p2 {
+    line-height: 27px;
+}
 /* /search-menu */
 
 /* /MAIN */
