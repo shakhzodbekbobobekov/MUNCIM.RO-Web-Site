@@ -322,7 +322,9 @@ hr:not(:last-child) {
     align-items: center;
     padding: 80px 0;
     border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
     margin-top: 120px;
+    margin-bottom: 70px;
 }
 
 .search-menu__img {
