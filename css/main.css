@@ -373,6 +373,24 @@ hr:not(:last-child) {
 .search-menu__text__p2 {
     line-height: 27px;
 }
+
+.search-menu__text__link {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.search-menu__text__link__left {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.search-menu__text__link__right {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+}
 /* /search-menu */
 
 /* /MAIN */
