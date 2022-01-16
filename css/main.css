@@ -479,7 +479,15 @@ hr:not(:last-child) {
     text-transform: uppercase;
 }
 
+.price-control__comment-box__links__left:hover,
+.price-control__comment-box__links__right:hover {
+    opacity: 0.8;
+}
 
+.price-control__comment-box__links__left:active,
+.price-control__comment-box__links__right:active {
+    opacity: 0.6;
+}
 
 .price-control__img {
     max-width: 820px;
